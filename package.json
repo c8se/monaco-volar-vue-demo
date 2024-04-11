@@ -1,0 +1,28 @@
+{
+  "name": "monaco-volar-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.2.8"
+  },
+  "dependencies": {
+    "@shikijs/monaco": "^1.3.0",
+    "@volar/language-service": "2.2.0-alpha.7",
+    "@volar/monaco": "2.2.0-alpha.7",
+    "@volar/typescript": "2.2.0-alpha.7",
+    "@vue/language-core": "^2.0.12",
+    "@vue/language-service": "^2.0.12",
+    "@vue/typescript-plugin": "^2.0.12",
+    "monaco-editor": "^0.47.0",
+    "path-browserify": "^1.0.1",
+    "shiki": "^1.3.0",
+    "typescript": "^5.4.5",
+    "volar-service-typescript": "0.0.38"
+  }
+}
